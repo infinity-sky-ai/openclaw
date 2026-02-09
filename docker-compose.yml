@@ -7,7 +7,7 @@ services:
       # Provider (at least one required)
       #- ANTHROPIC_API_KEY=sk-ant-...
       - OPENCODE_API_KEY=${OPENCODE_API_KEY}
-      - OPENCLAW_PRIMARY_MODEL=opencode/kimi-k2.5
+      - OPENCLAW_PRIMARY_MODEL=anthropic/claude-sonnet-4-6
       # Auth
       - AUTH_PASSWORD=${AUTH_PASSWORD}
       - OPENCLAW_GATEWAY_TOKEN=${OPENCLAW_GATEWAY_TOKEN}
