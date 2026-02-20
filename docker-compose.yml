@@ -1,6 +1,7 @@
 services:
   openclaw:
     image: coollabsio/openclaw:latest
+    pull_policy: always
     ports:
       - "${PORT:-8080}:${PORT:-8080}"
       - "3456:3456"
